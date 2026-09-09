@@ -9,5 +9,8 @@ void main() {
 
     // Verify that our app bar title is displayed.
     expect(find.text('PRAKTIKUM MOBILE LANJUT'), findsOneWidget);
+
+    // Verify that our greeting text is displayed.
+    expect(find.text('Hallo, Nama saya Arif Ahmad Muzakky'), findsOneWidget);
   });
 }

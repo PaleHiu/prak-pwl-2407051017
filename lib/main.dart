@@ -20,6 +20,12 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('PRAKTIKUM MOBILE LANJUT'),
         ),
+        body: const Center(
+          child: Text(
+            'Hallo, Nama saya Arif Ahmad Muzakky',
+            style: TextStyle(fontSize: 24),
+          ),
+        ),
       ),
     );
   }
