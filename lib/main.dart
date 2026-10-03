@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:prak_web_lanjut_2407051017/first_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,17 +17,7 @@ class MyApp extends StatelessWidget {
           seedColor: Colors.deepPurple,
         ),
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('PRAKTIKUM MOBILE LANJUT'),
-        ),
-        body: const Center(
-          child: Text(
-            'Hallo, Nama saya Arif Ahmad Muzakky',
-            style: TextStyle(fontSize: 24),
-          ),
-        ),
-      ),
+      home: const FirstWidget(),
     );
   }
 }
