@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:prak_web_lanjut_2407051017/first_widget.dart';
+import 'column_widget.dart';
+import 'row_widget.dart';
+import 'first_widget.dart';
+import 'form_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,13 +14,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Praktikum Mobile Lanjut',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.deepPurple,
-        ),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
       ),
-      home: const FirstWidget(),
+      home: const FormWidget(),
     );
   }
 }
