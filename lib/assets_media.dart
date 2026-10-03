@@ -17,7 +17,7 @@ class _AssetsMediaPageState extends State<AssetsMediaPage> {
       await player.pause();
     } else {
       await player.play(
-        AssetSource('audios/music.mp3'),
+        AssetSource('audios/TestLagu.mp3'),
       );
     }
 
@@ -59,7 +59,7 @@ class _AssetsMediaPageState extends State<AssetsMediaPage> {
                   children: [
                     ClipOval(
                       child: Image.asset(
-                        'assets/images/profile.jpeg',
+                        'assets/images/Foto_Formal.png',
                         width: 120,
                         height: 120,
                         fit: BoxFit.cover,
